@@ -1,0 +1,12 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "timestamp": "2025-10-05T20:28:04",
+      "amount": 500.0,
+      "category": "salary",
+      "type": "income",
+      "note": ""
+    }
+  ]
+}
