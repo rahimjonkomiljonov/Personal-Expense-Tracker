@@ -2,6 +2,8 @@
 
 Command-line program to record income and expenses, categorize them, track a running balance, and view summaries by category. Data is persisted to a local JSON file so transactions are remembered between runs.
 
+#### Video Demo:  <[URL HERE](https://youtu.be/K8X3PDDK7UY)>
+
 ### Project structure
 
 ```
@@ -86,5 +88,6 @@ proj.add_transaction(25, "Snacks", "expense", filename="/tmp/mydata.json")
 
 - Timestamps are saved to second precision using local time (`datetime.now().isoformat()`).
 - If `data.json` is missing or corrupted, the app safely starts with an empty dataset.
+
 
 
